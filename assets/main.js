@@ -20,7 +20,7 @@
     toggle.addEventListener('click', function () { setNav(!document.body.classList.contains('nav-open')); });
     document.querySelectorAll('.main-nav a').forEach(function (a) { a.addEventListener('click', function () { setNav(false); }); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && document.body.classList.contains('nav-open')) { setNav(false); toggle.focus(); } });
-    window.addEventListener('resize', function () { if (window.innerWidth > 1060 && document.body.classList.contains('nav-open')) setNav(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 1180 && document.body.classList.contains('nav-open')) setNav(false); });
   }
 
   // Current year in footer
