@@ -47,75 +47,35 @@
   <div class="container">
     <div class="crumbs"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Contact</span></div>
     <h1>Let's talk</h1>
-    <p class="lead">Questions about equipment service, maintenance, FDA registration, compliance, or our clinical field work? Send us a message and our team will get back to you.</p>
+    <p class="lead">Questions about equipment service, maintenance, FDA registration, compliance, or our clinical field work? Reach our team directly by phone or email.</p>
   </div>
 </section>
 
 <section class="section">
-  <div class="container contact-grid">
-    <aside class="info-card on-dark">
-      <h3>Vita Tech LLC</h3>
-      <p class="muted" style="margin:8px 0 0">Biomedical &amp; Regulatory Services</p>
-      <div class="info-item"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span><div><small>Kambiz Binesh, Co-Owner</small><a href="tel:+12023727722">202-372-7722</a></div></div>
-      <div class="info-item"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span><div><small>Reza Khandan, Co-Owner</small><a href="tel:+12026005947">202-600-5947</a></div></div>
-      <div class="info-item"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg></span><div><small>Email</small><a href="mailto:management@vitatech.care">management@vitatech.care</a></div></div>
-      <div class="info-item"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><small>Office</small><span>1521 Boyd Pointe Way<br>Vienna, VA 22182</span></div></div>
-    </aside>
-
-    <div class="form-card">
-      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
-        <h2 style="font-size:1.6rem;margin-bottom:22px">Send us a message</h2>
-
-        <!-- Web3Forms: replace with your access key -->
-        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
-        <input type="hidden" name="from_name" value="Vita Tech Website">
-        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-
-        <div class="form-grid">
-          <div class="field"><label for="name">Full name</label><input id="name" name="name" autocomplete="name" required><p class="error">Enter your name.</p></div>
-          <div class="field"><label for="organization">Organization <span class="opt">(optional)</span></label><input id="organization" name="organization" autocomplete="organization"></div>
-          <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" required><p class="error">Enter a valid email address.</p></div>
-          <div class="field"><label for="phone">Phone <span class="opt">(optional)</span></label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
-          <div class="field"><label for="role">Your role <span class="opt">(optional)</span></label><input id="role" name="role" autocomplete="organization-title"></div>
-          <div class="field"><label for="service">Inquiry type</label>
-            <select id="service" name="service" required>
-              <option value="">Select an option</option>
-              <option>Biomedical equipment service</option>
-              <option>Repair &amp; maintenance</option>
-              <option>Installation &amp; training</option>
-              <option>FDA registration &amp; listing</option>
-              <option>Submission support</option>
-              <option>Regulatory compliance</option>
-              <option>Brain imaging program</option>
-              <option>General inquiry</option>
-              <option>Careers</option>
-              <option>Other</option>
-            </select><p class="error">Choose an inquiry type.</p></div>
-        </div>
-        <div class="field"><label for="message">Message</label><textarea id="message" name="message" required placeholder="Tell us about your equipment, device, or question."></textarea><p class="error">Add a short message so we can help.</p></div>
-
-        <div class="form-foot">
-          <div class="field captcha-field">
-            <label for="captcha">Security check: what is <span id="captcha-q">5 + 6</span>?</label>
-            <div class="captcha-row">
-              <input id="captcha" type="text" inputmode="numeric" autocomplete="off" required data-captcha aria-describedby="captcha-help">
-              <button type="button" class="captcha-new" id="captcha-new" aria-label="Show a different question">New question</button>
-            </div>
-            <p class="error" id="captcha-help">That answer isn't correct. Try the new question.</p>
-          </div>
-          <button class="btn btn-primary" type="submit"><span class="spinner" aria-hidden="true"></span>Send message</button>
-        </div>
-        <div class="form-status" id="form-status" role="alert"></div>
-      </form>
-
-      <div class="thank-you" id="thank-you" aria-live="polite">
-        <div class="ok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
-        <h2>Thank you<span id="thank-name"></span>.</h2>
-        <p>Your message has reached the Vita Tech team. We'll review it and get back to you shortly.</p>
-        <div class="btn-row" style="justify-content:center;margin-top:0">
-          <a class="btn btn-dark" href="index.html">Back to home</a>
-          <button class="btn btn-outline" type="button" id="send-another">Send another message</button>
-        </div>
+  <div class="container">
+    <div class="contact-cards">
+      <a class="c-card" href="tel:+12023727722">
+        <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span>
+        <small>Kambiz Binesh, Co-Owner</small>
+        <strong>202-372-7722</strong>
+        <span class="c-link">Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="c-card" href="tel:+12026005947">
+        <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span>
+        <small>Reza Khandan, Co-Owner</small>
+        <strong>202-600-5947</strong>
+        <span class="c-link">Call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="c-card" href="mailto:management@vitatech.care">
+        <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg></span>
+        <small>Email</small>
+        <strong>management<wbr>@vitatech.care</strong>
+        <span class="c-link">Send an email <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <div class="c-card">
+        <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+        <small>Office</small>
+        <strong>1521 Boyd Pointe Way<br>Vienna, VA 22182</strong>
       </div>
     </div>
   </div>
